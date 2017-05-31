@@ -1,0 +1,15 @@
+{
+  "description": "Liferay NPM isObject Example",
+  "name": "liferay-npm-example-isobject",
+  "private": true,
+  "version": "1.0.0",
+  "main": "lib/index.es.js",
+  "dependencies": {
+    "liferay-npm-examples-isarray": "^2.0.1",
+    "liferay-npm-examples-isobject": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "liferay-gulp-packager": "https://github.com/izaera/liferay-gulp-packager"
+  }
+}
