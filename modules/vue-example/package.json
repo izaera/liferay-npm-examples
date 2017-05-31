@@ -1,0 +1,14 @@
+{
+  "description": "Liferay NPM Vue.js Example",
+  "name": "liferay-npm-example-vue",
+  "private": true,
+  "version": "1.0.0",
+  "main": "lib/index.es.js",
+  "dependencies": {
+    "vue": "^2.3.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "liferay-gulp-packager": "https://github.com/izaera/liferay-gulp-packager"
+  }
+}
