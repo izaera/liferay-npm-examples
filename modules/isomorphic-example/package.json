@@ -1,0 +1,14 @@
+{
+  "description": "Liferay NPM Isomorphic Example",
+  "name": "liferay-npm-example-isomorphic",
+  "private": true,
+  "version": "1.0.0",
+  "main": "lib/index.es.js",
+  "dependencies": {
+    "liferay-npm-examples-isomorphic": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "liferay-gulp-packager": "https://github.com/izaera/liferay-gulp-packager"
+  }
+}
