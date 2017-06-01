@@ -4,7 +4,14 @@ var gulp = require('gulp');
 
 require('liferay-gulp-packager').attach(gulp, {
 	nodeGlobals: {
-		// Avoid shimming of process global variable (we do it by hand in view.jsp)
-		process: null,
+		//
+		// Shim references to process.env.NODE_ENV used by React.
+		//
+		// We could also use the isomorphic shimming facilities provided by
+		// liferay-gulp-packager, but it is not worth the effort just for one
+		// variable, as it forces you to deploy liferay-node-shims and that would
+		// make deployment of this bundle more complex.
+		//
+		process: "var process = {env:{NODE_ENV: 'production'}};",
 	},
 });
