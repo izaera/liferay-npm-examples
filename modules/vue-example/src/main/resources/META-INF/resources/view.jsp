@@ -6,7 +6,7 @@
 
 <hr>
 
-<div id="app-1">
+<div id="liferay-npm-example-vue-app-1">
 	<p>A friendly reversible message from Vue.js:</p>
 	<p>{{message}}</p>
 	<button v-on:click="reverseMessage">Reverse message, pretty please</button>
@@ -14,7 +14,7 @@
 
 <hr>
 
-<div id="app-2">
+<div id="liferay-npm-example-vue-app-2">
 	<p>A to do list made with Vue.js components:</p>
   <ol>
     <todo-item

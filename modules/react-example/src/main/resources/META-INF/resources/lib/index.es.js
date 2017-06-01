@@ -107,5 +107,8 @@ function calculateWinner(squares) {
 }
 
 export default function() {
-	ReactDOM.render(<Game />, document.getElementById('root'));
+	ReactDOM.render(
+		<Game />,
+		document.getElementById('liferay-npm-example-react-root')
+	);
 }

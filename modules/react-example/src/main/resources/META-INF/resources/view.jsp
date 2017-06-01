@@ -4,4 +4,4 @@
 	liferayNpmExampleReact100.default();
 </aui:script>
 
-<div id="root"></div>
+<div id="liferay-npm-example-react-root"></div>

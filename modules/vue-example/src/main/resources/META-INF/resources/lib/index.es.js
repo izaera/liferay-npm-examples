@@ -10,7 +10,7 @@ import Vue from 'vue/dist/vue.common';
 export default function() {
 	// Application 1
 	new Vue({
-		el: '#app-1',
+		el: '#liferay-npm-example-vue-app-1',
 		data: {
 			message: 'Hello from Vue.js!',
 		},
@@ -27,7 +27,7 @@ export default function() {
 		template: '<li>{{ todo.text }}</li>',
 	});
 	new Vue({
-		el: '#app-2',
+		el: '#liferay-npm-example-vue-app-2',
 		data: {
 			groceryList: [
 				{ id: 0, text: 'Vegetables' },
