@@ -1,0 +1,17 @@
+{
+  "description": "Liferay NPM Metal.js Example",
+  "name": "liferay-npm-example-metal",
+  "private": true,
+  "version": "1.0.0",
+  "main": "lib/index.es.js",
+  "dependencies": {
+    "metal-component": "^1.0.0-rc.11",
+    "metal-soy": "^1.0.0-rc.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-metal": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "liferay-gulp-packager": "https://github.com/izaera/liferay-gulp-packager"
+  }
+}
