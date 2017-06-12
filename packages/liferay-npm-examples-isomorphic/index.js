@@ -6,7 +6,7 @@ var util = require('util');
 module.exports = function(out) {
 	out.log('Scheduling code to run on `nextTick`');
 
-	process.nextTick(() => {
+	process.nextTick(function() {
 		out.log('');
 		out.log(
 			util.format(
