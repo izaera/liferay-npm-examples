@@ -2,6 +2,7 @@
 
 var gulp = require('gulp');
 var rename = require('gulp-rename');
+var runSequence = require('run-sequence');
 
 require('gulp-metal').registerTasks({
 	taskPrefix: 'metal:',
@@ -10,6 +11,7 @@ require('gulp-metal').registerTasks({
 });
 
 require('liferay-gulp-packager').attach(gulp, {
+	task: null,
 	nodeGlobals: {
 		setImmediate: null,
 	},
@@ -26,6 +28,4 @@ gulp.task('create-soy-files', ['metal:soy'], function() {
 		.pipe(gulp.dest('./src/main/resources/META-INF/resources'));
 });
 
-// Make lr:transpileProject task depend on create-soy-files so that SOY
-// generated files are created before the project is transpiled.
-gulp.tasks['lr:transpileProject'].dep.push('create-soy-files');
+gulp.task('default', () => runSequence('create-soy-files', 'lr:build'));

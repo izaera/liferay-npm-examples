@@ -12,6 +12,7 @@
     "gulp": "^3.9.1",
     "gulp-metal": "^1.0.0",
     "gulp-rename": "^1.2.2",
-    "liferay-gulp-packager": "https://github.com/izaera/liferay-gulp-packager"
+    "liferay-gulp-packager": "https://github.com/izaera/liferay-gulp-packager",
+    "run-sequence": "^1.2.2"
   }
 }
