@@ -1,0 +1,14 @@
+{
+  "description": "Liferay NPM jQuery Example",
+  "name": "liferay-npm-example-jquery",
+  "private": true,
+  "version": "1.0.0",
+  "main": "lib/index.es.js",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "liferay-gulp-packager": "https://github.com/izaera/liferay-gulp-packager"
+  }
+}

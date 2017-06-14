@@ -1,0 +1,4 @@
+Bundle-Name: Liferay NPM jQuery Example
+Bundle-SymbolicName: com.liferay.npm.example.jquery
+Bundle-Version: 1.0.0
+Web-ContextPath: /liferay-npm-example-jquery
