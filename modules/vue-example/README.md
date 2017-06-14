@@ -12,4 +12,4 @@ To see this example in action you need to:
 
 2) Run `../../gradlew deploy`.
 
-3) Add a '**Liferay NPM isObject Example**' portlet to your page.
+3) Add a '**Liferay NPM Vue.js Example**' portlet to your page.
