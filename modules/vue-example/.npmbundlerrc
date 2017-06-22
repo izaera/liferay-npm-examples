@@ -1,0 +1,25 @@
+{
+	"vue@2.3.4": {
+		".babelrc": {
+			"presets": ["es2015"],
+			"plugins": [
+				"normalize-requires",
+				["shim-node-globals", {
+					"globals": {
+						"global": "var global = window;",
+						"process": "var process = {env:{NODE_ENV: 'production'}};"
+					}
+				}],
+				"wrap-modules-amd",
+				["name-amd-modules", {
+					"sourceRoot": "{{SRC_DIR}}"
+				}],
+				"namespace-amd-define"
+			],
+			"ignore": [
+				"src/**/*.js"
+			]
+		}
+	}
+	
+}
