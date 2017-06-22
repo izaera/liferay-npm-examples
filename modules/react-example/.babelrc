@@ -1,0 +1,8 @@
+{
+	"presets": ["es2015", "react"],
+	"plugins": [
+		"transform-es2015-modules-amd",
+		"name-amd-modules",
+		"namespace-amd-define"
+	]
+}
