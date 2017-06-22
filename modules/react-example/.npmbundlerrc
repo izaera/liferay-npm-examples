@@ -1,5 +1,7 @@
 {
-	"debug-babel": true,
+	"exclude": {
+		"fbjs@0.8.12": ["flow/**/*.js"]
+	},
 	"*": {
 		".babelrc": {
 			"plugins": [
@@ -14,26 +16,6 @@
 					"sourceRoot": "{{SRC_DIR}}"
 				}],
 				"namespace-amd-define"
-			]
-		}
-	},
-	"fbjs@0.8.12": {
-		".babelrc": {
-			"plugins": [
-				"normalize-requires",
-				["shim-node-globals", {
-					"globals": {
-						"process": "var process = {env:{NODE_ENV: 'production'}};"
-					}
-				}],
-				"wrap-modules-amd",
-				["name-amd-modules", {
-					"sourceRoot": "{{SRC_DIR}}"
-				}],
-				"namespace-amd-define"
-			],
-			"ignore": [
-				"flow/**/*.js"
 			]
 		}
 	}

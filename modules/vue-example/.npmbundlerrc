@@ -1,7 +1,9 @@
 {
-	"vue@2.3.4": {
+	"exclude": {
+		"vue@2.3.4": ["src/**/*.js"]
+	},
+	"*": {
 		".babelrc": {
-			"presets": ["es2015"],
 			"plugins": [
 				"normalize-requires",
 				["shim-node-globals", {
@@ -15,11 +17,7 @@
 					"sourceRoot": "{{SRC_DIR}}"
 				}],
 				"namespace-amd-define"
-			],
-			"ignore": [
-				"src/**/*.js"
 			]
 		}
 	}
-	
 }
