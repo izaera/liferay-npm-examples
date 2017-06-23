@@ -1,4 +1,4 @@
-import templates from './CloseHeader.soy.es';
+import templates from './CloseHeader.soy';
 import Component from 'metal-component';
 import Soy from 'metal-soy';
 

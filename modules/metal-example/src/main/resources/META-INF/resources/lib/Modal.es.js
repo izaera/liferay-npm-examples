@@ -4,7 +4,7 @@ import Component from 'metal-component';
 import Soy from 'metal-soy';
 import CloseHeader from './CloseHeader.es';
 
-import templates from './Modal.soy.es';
+import templates from './Modal.soy';
 
 class Modal extends Component {
 	close() {
