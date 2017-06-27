@@ -1,0 +1,16 @@
+{
+	"debug-babel": true,
+	"*": {
+		".babelrc": {
+			"plugins": [
+				"normalize-requires",
+				"shim-nodejs",
+				"wrap-modules-amd",
+				["name-amd-modules", {
+					"sourceRoot": "{{SRC_DIR}}"
+				}],
+				"namespace-amd-define"
+			]
+		}
+	}
+}
