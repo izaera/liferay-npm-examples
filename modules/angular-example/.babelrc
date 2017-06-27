@@ -1,0 +1,6 @@
+{
+	"plugins": [
+		"name-amd-modules",
+		"namespace-amd-define"
+	]
+}

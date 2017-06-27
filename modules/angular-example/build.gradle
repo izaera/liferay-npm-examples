@@ -13,6 +13,6 @@ tasks.configJSModules.enabled = false
 
 // Insert a custom gulp task in the build
 task gulp(type: Exec, dependsOn: replaceSoyTranslation) {
-	commandLine = ['./node_modules/.bin/gulp']
+	commandLine = ['npm', 'run', 'build']
 }
 jar.dependsOn(gulp)

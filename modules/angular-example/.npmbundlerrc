@@ -1,0 +1,25 @@
+{
+	"exclude": {
+		"mkdirp@0.5.1": ["bin/**/*"]
+	},
+	"*": {
+		"plugins": [
+			"replace-browser-modules",
+			["inject-package-dependencies", {
+				"@angular/forms@4.0.3": {
+					"rxjs": "^5.0.1"
+				}
+			}]
+		],
+		".babelrc": {
+			"plugins": [
+				"normalize-requires",
+				"wrap-modules-amd",
+				["name-amd-modules", {
+					"sourceRoot": "{{SRC_DIR}}"
+				}],
+				"namespace-amd-define"
+			]
+		}
+	}
+}
