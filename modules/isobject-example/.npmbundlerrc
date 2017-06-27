@@ -1,7 +1,6 @@
 {
 	"*": {
 		".babelrc": {
-			"presets": ["es2015"],
 			"plugins": [
 				"normalize-requires",
 				"wrap-modules-amd",
