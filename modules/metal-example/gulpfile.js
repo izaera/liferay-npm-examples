@@ -2,6 +2,8 @@
 
 var gulp = require('gulp');
 
+// We need to use gulp to compile soy files because metal-cli compiles for a
+// different target version (of the `goog` modules).
 require('gulp-metal').registerTasks({
 	taskPrefix: 'metal:',
 	soySrc: './src/main/resources/META-INF/resources/**/*.soy',
