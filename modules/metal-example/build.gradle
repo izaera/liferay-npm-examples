@@ -6,13 +6,3 @@ dependencies {
 	compileOnly group: "jstl", name: "jstl", version: "1.2"
 	compileOnly group: "org.osgi", name: "osgi.cmpn", version: "6.0.0"
 }
-
-// Temporarily disable metal-cli tasks
-tasks.transpileJS.enabled = false
-tasks.configJSModules.enabled = false
-
-// Insert a custom gulp task in the build
-task gulp(type: Exec, dependsOn: replaceSoyTranslation) {
-	commandLine = ['npm', 'run', 'build']
-}
-jar.dependsOn(gulp)

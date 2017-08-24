@@ -1,21 +1,21 @@
 {
-    "description": "Liferay NPM Billboard.js Example",
-    "name": "liferay-npm-example-billboard",
-    "private": true,
-    "version": "1.0.0",
-    "main": "lib/index.es.js",
-    "dependencies": {
-        "billboard.js": "^1.0.1"
-    },
-    "devDependencies": {
-        "babel-cli": "^6.24.1",
-        "babel-preset-es2015": "^6.24.1",
-        "babel-preset-liferay-project": "^0.4.0",
-        "liferay-npm-bundler": "^0.4.0",
-        "liferay-npm-bundler-preset-standard": "^0.4.0",
-        "metal-cli": "3.0.0"
-    },
-    "scripts": {
-        "build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
-    }
+	"description": "Liferay NPM Billboard.js Example",
+	"name": "liferay-npm-example-billboard",
+	"private": true,
+	"version": "1.0.0",
+	"main": "lib/index.es.js",
+	"dependencies": {
+		"billboard.js": "^1.0.1"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.24.1",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-liferay-project": "^0.6.0",
+		"liferay-npm-bundler": "^0.6.0",
+		"liferay-npm-bundler-preset-standard": "^0.6.0",
+		"metal-cli": "3.0.0"
+	},
+	"scripts": {
+		"build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
+	}
 }
