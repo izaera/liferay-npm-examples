@@ -12,8 +12,7 @@
 		"babel-preset-es2015": "^6.24.1",
 		"babel-preset-liferay-project": "^0.6.0",
 		"liferay-npm-bundler": "^0.6.0",
-		"liferay-npm-bundler-preset-standard": "^0.6.0",
-		"metal-cli": "3.0.0"
+		"liferay-npm-bundler-preset-standard": "^0.6.0"
 	},
 	"scripts": {
 		"build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
