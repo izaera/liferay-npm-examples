@@ -5,7 +5,7 @@
 folder 
 [gradle/apps/npm](https://github.com/liferay/liferay-blade-samples/tree/master/gradle/apps/npm).**
 
-This is part of an effort to promote this examples to Liferay's official 
+This is part of an effort to promote these examples to Liferay's official 
 development tool [blade](https://github.com/liferay/liferay-blade-cli).
 
 This repository's master branch is empty but the old contents can still be found 
