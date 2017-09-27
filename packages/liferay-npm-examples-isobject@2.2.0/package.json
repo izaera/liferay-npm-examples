@@ -1,8 +1,0 @@
-{
-  "name": "liferay-npm-examples-isobject",
-  "version": "2.2.0",
-  "main": "index.js",
-  "dependencies": {
-    "liferay-npm-examples-isarray": "1.0.0"
-  }
-}

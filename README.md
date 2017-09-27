@@ -1,11 +1,13 @@
 # liferay-npm-examples
 
-This repository hosts examples of Liferay OSGi bundles that implement portlets
-using the NPM support of Liferay Portal.
+**The contents of this repository have been moved to 
+[liferay-blade-samples](https://github.com/liferay/liferay-blade-samples), 
+folder 
+[gradle/apps/npm](https://github.com/liferay/liferay-blade-samples/tree/master/gradle/apps/npm).**
 
-Please refer to the [modules](https://github.com/izaera/liferay-npm-examples/tree/master/modules)
-folder of the project to see the list of available examples. Each example project has its own README explaining how to deploy it and test it.
+This is part of an effort to promote this examples to Liferay's official 
+development tool [blade](https://github.com/liferay/liferay-blade-cli).
 
-# WARNING
-
-This is work in progress for the next Liferay Portal version. It won't work in Liferay 7.
+This repository's master branch is empty but the old contents can still be found 
+in the `deprecated` branch, though their use is discouraged as they will not be 
+maintained any more.

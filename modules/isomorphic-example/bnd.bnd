@@ -1,4 +1,0 @@
-Bundle-Name: Liferay NPM Isomorphic Example
-Bundle-SymbolicName: com.liferay.npm.example.isomorphic
-Bundle-Version: 1.0.0
-Web-ContextPath: /liferay-npm-example-isomorphic

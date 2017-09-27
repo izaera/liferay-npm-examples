@@ -1,4 +1,0 @@
-Bundle-Name: Liferay NPM Angular.js Example
-Bundle-SymbolicName: com.liferay.npm.example.angular
-Bundle-Version: 1.0.0
-Web-ContextPath: /liferay-npm-example-angular

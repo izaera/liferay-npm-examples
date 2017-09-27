@@ -1,4 +1,0 @@
-Bundle-Name: Liferay NPM React Example
-Bundle-SymbolicName: com.liferay.npm.example.react
-Bundle-Version: 1.0.0
-Web-ContextPath: /liferay-npm-example-react
